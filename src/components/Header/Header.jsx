@@ -3,8 +3,8 @@ import logo from '../../images/Logo.svg';
 
 export default function Header() {
   return (
-    <div>
-      <div className="navbar bg-neutral ">
+    <div className="sticky top-0 z-10">
+      <div className="navbar bg-neutral  ">
         <div className="container mx-auto">
           <div className="flex-1">
             <img src={logo} alt="" />

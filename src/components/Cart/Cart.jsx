@@ -21,7 +21,7 @@ export default function Cart({ cart }) {
   const grandTotal = totalPrice + totalShipping + tax;
 
   return (
-    <div className="bg-orange-200 p-5 sticky top-0">
+    <div className="bg-orange-200 p-5 sticky top-16">
       <h4 className="text-lg font-bold text-center my-5">Order Summary</h4>
       <p className="py-2 text-xl">Selected Item: {quantity}</p>
       <p className=" text-xl">Total Price: ${totalPrice}</p>
